@@ -7,7 +7,7 @@ const age = prompt ("quanti anni hai?")
 console.log(age);
 
 // calcolare il prezzo pieno del biglietto (0,21 €/km)
-
+let prezzoBiglietto = Km * '0.21'
 
 // calcolare il 20% di sconto se utente minorenne
 
