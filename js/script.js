@@ -7,13 +7,13 @@ const age = prompt ("quanti anni hai?");
 console.log(age);
 
 // calcolo prezzo pieno del biglietto (0,21 €/km)
-let prezzoBiglietto = Km * '0.21';
+let prezzoBiglietto = Km * 0.21;
 
 // calcolo sconto 20%
-let sconto20 = (prezzoBiglietto * '20') / '100';
+let sconto20 = (prezzoBiglietto * 20) / 100;
 
 // calcolo sconto 40%
-let sconto40 = (prezzoBiglietto * '40') / '100';
+let sconto40 = (prezzoBiglietto * 40) / 100;
 
 // calcolare il 20% di sconto se utente minorenne
 if (age < 18) {
